@@ -128,7 +128,7 @@ body {
 .header__hero-bg {
   position: relative;
   height: 40vh;
-  background-image: url("../img/jungle-gc0c256592_640.jpg");
+  background-image: url("jungle-gc0c256592_640.jpg");
   background-position: center;
   background-size: cover;
   z-index: 0;
@@ -212,7 +212,7 @@ body {
 .hero__img-bg {
   position: relative;
   height: 30vh;
-  background-image: url("../img/girl-gdf46c1109_640.jpg");
+  background-image: url("girl-gdf46c1109_640.jpg");
   background-position: center;
   background-size: cover;
   z-index: 0;
@@ -667,7 +667,7 @@ body {
     font-size: 1.5em;
   }
   .header__hero-bg {
-    background-image: url("../img/jungle-gcbd5810fe_1920.jpg");
+    background-image: url("jungle-gcbd5810fe_1920.jpg");
   }
   .header__hero-text {
     padding: 0 7em;
@@ -699,7 +699,7 @@ body {
     margin-top: 3em;
   }
   .hero__img-bg {
-    background-image: url("../img/girl-g3dce20eeb_1920.jpg");
+    background-image: url("girl-g3dce20eeb_1920.jpg");
   }
   .hero__img-text {
     font-size: 1.5em;
