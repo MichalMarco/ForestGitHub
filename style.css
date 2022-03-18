@@ -128,7 +128,7 @@ body {
 .header__hero-bg {
   position: relative;
   height: 40vh;
-  background-image: url("jungle-gc0c256592_640.jpg");
+  background-image: url("./jungle-gc0c256592_640.jpg");
   background-position: center;
   background-size: cover;
   z-index: 0;
