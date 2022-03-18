@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest - Kontakt</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/abb3f5bc26.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+    <nav class="nav">
+
+        <div class="nav__brand">
+            <a class='nav__logo' href="index.html#home"><i class="fa-solid fa-tree"></i> Forest</a>
+        </div>
+
+        <button class="burger-btn">
+            <a class='nav__burger-btn'><i class="fa-solid fa-bars"></i></a>
+        </button>
+
+        <ul class="nav__items">
+            <li><a href="index.html#home" class="nav__item">Home</a></li>
+            <li><a href="index.html#aboutus" class="nav__item">O Nas</a></li>
+            <li><a href="index.html#offer" class="nav__item">Oferty</a></li>
+            <li><a href="contact.html" class="nav__item contact__btn">Kontakt</a></li>
+        </ul>
+
+    </nav>
+
+    <main>
+
+        <section class="contact">
+            <div class="wrapper">
+                <div class="contact__box">
+                    <h2 class="contact__title"><i class="fa-solid fa-envelope"></i> Kontakt</h2>
+                    <form class="contact__form" action="mailto:someone@example.com">
+
+                        <div class="contact__form-top">
+                            <label for="name" class="contact__form-label">Imię i nazwisko</label>
+                            <input type="text" class="contact__form-input" id='name'>
+                            <label for="email" class="contact__form-label">Adres e-mail</label>
+                            <input type="text" class="contact__form-input" id='email'>
+                        </div>
+
+                        <label for="" class="contact__form-label">Wiadomość</label>
+                        <textarea id="msg" cols="30" class="contact__form-textarea"></textarea>
+
+                        <button type="submit" class='contact__form-btn'>Wyślij</button>
+                    </form>
+
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="wrapper location">
+                <div class="location__map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.898451398873!2d19.890660217443834!3d50.0881881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sRestauracja%20McDonald&#39;s!5e0!3m2!1spl!2spl!4v1647445539979!5m2!1spl!2spl"
+                        allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="location__adress">
+                    <h3>Dane teleadresowe</h3>
+                    <p>FOREST GROUP COMPANY LTD</p>
+                    <p>Ul. Jeleniogórska 2</p>
+                    <p>31-358 Kraków</p>
+                    <p><i class="fa-solid fa-phone"></i> +48 800 111 111</p>
+                    <p><i class="fa-solid fa-envelope"></i> kontakt@forest.pl</p>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="wrapper">
+                <div class="footer__boxes">
+
+                    <div class="footer__brand">
+                        <a class='footer__logo' href="index.html#home"><i class="fa-solid fa-tree"></i> Forest</a>
+                    </div>
+
+                    <div class="footer__items">
+                        <div class="footer__item">
+                            <h3 class="footer__item-title">O nas</h3>
+                            <ul class="footer__data">
+                                <li>Historia</li>
+                                <li>Parki</li>
+                                <li>Opinie</li>
+                            </ul>
+                        </div>
+                        <div class="footer__item">
+                            <h3 class="footer__item-title">Nasza firma</h3>
+                            <ul class="footer__data">
+                                <li>Praca</li>
+                                <li>Kadry</li>
+                                <li>Zarząd</li>
+                            </ul>
+                        </div>
+                        <div class="footer__item">
+                            <h3 class="footer__item-title">Dokumenty</h3>
+                            <ul class="footer__data">
+                                <li>Wnioski</li>
+                                <li>Rezerwacje</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <p class="footer__label">&copy; <span class="footer__label-year"></span>Forest Group Company
+                LTD</p>
+
+        </footer>
+    </main>
+
+
+
+    <script src="JS/contact.js"></script>
+</body>
+
+</html>
